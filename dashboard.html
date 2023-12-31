@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <title>dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h2>
+        Hola Mac Shop
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </h2>
+      <div>
+        <a href="./index.html">
+          Home
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </a>
+        <button>
+          LogOut
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <h1>Users List:</h1>
+      <div id="container">
+        <span id="loader"></span>
+      </div>
+    </main>
+    <script type="module" src="./utils/dashboard.js"></script>
+  </body>
+</html>
